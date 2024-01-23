@@ -5,6 +5,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-base/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" />
       </list>
     </option>
   </component>

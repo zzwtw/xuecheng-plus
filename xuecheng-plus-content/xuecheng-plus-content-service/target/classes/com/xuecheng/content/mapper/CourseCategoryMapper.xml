@@ -18,4 +18,8 @@
         id, name, label, parentid, is_show, orderby, is_leaf
     </sql>
 
+    <select id="selectTreeNodes" parameterType="string" resultType="com.xuecheng.content.model.dto.CourseCategoryTreeDto">
+        SELECT * FROM course_category
+    </select>
+
 </mapper>

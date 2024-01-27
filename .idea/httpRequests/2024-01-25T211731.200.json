@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "companyId": 1232141425,
+      "companyName": "",
+      "name": "JAVA8/9/10新特性讲解",
+      "users": "java爱好者,有一定java基础",
+      "tags": "有个java 版本变化的新内容，帮助大家使用最新的思想和工具",
+      "mt": "1",
+      "st": "1-3-2",
+      "grade": "204002",
+      "teachmode": "200002",
+      "description": null,
+      "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
+      "createDate": "2019-09-03 17:48:19",
+      "changeDate": "2022-09-17 16:47:29",
+      "createPeople": "1",
+      "changePeople": null,
+      "auditStatus": "202004",
+      "status": "203001"
+    },
+    {
+      "id": 27,
+      "companyId": 1232141425,
+      "companyName": null,
+      "name": "Javascript之VueJS",
+      "users": "所有人",
+      "tags": null,
+      "mt": "1-1",
+      "st": "1-1-9",
+      "grade": "200002",
+      "teachmode": "200002",
+      "description": "Vue系列课程：从Vue1.0讲到Vue2.0，从理论讲到实战，理论与案例巧妙结合，让课程更容易理解！",
+      "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
+      "createDate": "2019-09-04 09:56:19",
+      "changeDate": null,
+      "createPeople": null,
+      "changePeople": null,
+      "auditStatus": "202004",
+      "status": "203001"
+    }
+  ],
+  "counts": 3,
+  "page": 1,
+  "pageSize": 2
+}

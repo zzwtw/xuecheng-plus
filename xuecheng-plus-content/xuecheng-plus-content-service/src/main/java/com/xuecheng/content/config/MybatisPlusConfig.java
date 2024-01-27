@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
  * </p>
  */
 @Configuration // 有这个注解才能配置bean，才能被扫描到
-@MapperScan("com.xuecheng.content.mapper")
+@MapperScan("com.xuecheng.content.mapper") // 扫描mapper，注入spring
 public class MybatisPlusConfig {
     /**
      * 定义分页拦截器

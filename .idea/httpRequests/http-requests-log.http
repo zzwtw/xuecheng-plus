@@ -1,0 +1,357 @@
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T153246.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T153245.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T153243.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T152944.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T152619.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-27T151731.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 1,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程103",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-26T160020.200.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 0,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程103",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-26T160007.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+
+{
+  "charge": "201000",
+  "price": 0,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1-1",
+  "st": "1-1-1",
+  "name": "测试课程103",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": ""
+}
+
+<> 2024-01-26T155820.500.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+
+<> 2024-01-26T134853.200.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+
+<> 2024-01-26T134803.500.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+
+<> 2024-01-26T134728.500.json
+
+###
+
+GET http://localhost:63110/system/dictionary/all
+
+<> 2024-01-25T215106.500.json
+
+###
+
+GET http://localhost:63110/system/dictionary/all
+
+<> 2024-01-25T214831.500.json
+
+###
+
+GET http://localhost:63110/system/dictionary/all
+
+<> 2024-01-25T214556.500.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": "203001"
+}
+
+<> 2024-01-25T212013.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": "203001"
+}
+
+<> 2024-01-25T211731.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": "203001"
+}
+
+<> 2024-01-25T211232.500.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": "203001"
+}
+
+<> 2024-01-25T211028.500.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+"auditStatus":"202002",
+"courseName":"1"
+}
+
+<> 2024-01-25T210900.500.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+content-type: application/json
+
+{
+"auditStatus":"202002",
+"courseName":"1"
+}
+
+<> 2024-01-25T210733.200.json
+
+###
+
+POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
+
+{
+"auditStatus":"202002",
+"courseName":"1"
+}
+
+<> 2024-01-25T210706.415.json
+
+###
+

@@ -32,7 +32,7 @@ public class CreateCourseBaseServiceImpl implements CreateCourseBaseService {
      * 插入新增的课程
      * @param companyId 机构id
      * @param dto 接收前端传来的数据的对象
-     * @return
+     * @return 课程基本信息+课程营销信息
      */
 
     @Transactional
@@ -95,6 +95,11 @@ public class CreateCourseBaseServiceImpl implements CreateCourseBaseService {
         return getCourseBaseInfo(courseId);
     }
 
+    /**
+     * @description 更新或插入课程营销信息
+     * @param courseMarket
+     * @return
+     */
     private int saveCourseMarket(CourseMarket courseMarket) {
         String marketCharge = courseMarket.getCharge();
         if (StringUtils.isBlank(marketCharge)) {
@@ -117,6 +122,11 @@ public class CreateCourseBaseServiceImpl implements CreateCourseBaseService {
         }
     }
 
+    /**
+     * @description 根据id查询课程基本信息+课程营销信息
+     * @param courseId
+     * @return
+     */
     public CourseBaseInfoDto getCourseBaseInfo(Long courseId) {
         //课程基本表中查询
         CourseBase courseBase = courseBaseMapper.selectById(courseId);

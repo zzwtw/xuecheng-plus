@@ -16,6 +16,11 @@ import java.util.stream.Collectors;
 public class CourseCategoryServiceImpl implements CourseCategoryService {
     @Autowired
     private CourseCategoryMapper courseCategoryMapper;
+
+    /**
+     * @param id 根节点id
+     * @return 课程分类列表
+     */
     @Override
     public List<CourseCategoryTreeDto> queryTreeNodes(String id) {
         List<CourseCategoryTreeDto> courseCategoryTreeDtos = courseCategoryMapper.selectTreeNodes(id);

@@ -29,6 +29,12 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Autowired
     private CourseMarketMapper courseMarketMapper;
 
+    /**
+     *
+     * @param pageParams 分页参数
+     * @param queryCourseParamsDto 查询参数
+     * @return 课程基本信息列表
+     */
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
         // 测试查询接口
@@ -72,6 +78,12 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
     }
 
+    /**
+     *
+     * @param companyId 机构id
+     * @param editCourseDto 前端更新的信息
+     * @return 课程基本信息+课程营销信息
+     */
     @Override
     public CourseBaseInfoDto updateCourseBaseInfo(Long companyId, EditCourseDto editCourseDto) {
         // 校验

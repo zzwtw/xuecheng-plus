@@ -14,4 +14,6 @@ import com.xuecheng.content.model.po.CourseBase;
 public interface CourseBaseInfoService {
     PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
     CourseBaseInfoDto updateCourseBaseInfo(Long companyId,EditCourseDto editCourseDto);
+
+    void deleteCourseBaseInfo(Long companyId, Long id);
 }

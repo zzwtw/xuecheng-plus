@@ -32,3 +32,6 @@ Content-Type: application/json
   "grade": "204001",
   "description": ""
 }
+
+### 获取课程计划树结构
+GET http://localhost:63040/content/teachplan/1/tree-nodes

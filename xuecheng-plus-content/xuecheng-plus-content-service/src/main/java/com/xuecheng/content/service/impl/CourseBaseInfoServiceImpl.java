@@ -8,11 +8,15 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
+import com.xuecheng.content.mapper.CourseTeacherMapper;
+import com.xuecheng.content.mapper.TeachplanMapper;
 import com.xuecheng.content.model.dto.CourseBaseInfoDto;
 import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.model.po.CourseMarket;
+import com.xuecheng.content.model.po.CourseTeacher;
+import com.xuecheng.content.model.po.Teachplan;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,6 +33,11 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Autowired
     private CourseMarketMapper courseMarketMapper;
 
+    @Autowired
+    private TeachplanMapper teachplanMapper;
+
+    @Autowired
+    private CourseTeacherMapper courseTeacherMapper;
     /**
      *
      * @param pageParams 分页参数
@@ -116,5 +125,39 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         BeanUtils.copyProperties(courseBaseNew,courseBaseInfoDtoResult);
         BeanUtils.copyProperties(courseMarketNew,courseBaseInfoDtoResult);
         return courseBaseInfoDtoResult;
+    }
+
+    /**
+     * @description 删除课程基本信息，附带删除课程营销信息，课程计划，课程教师信息
+     * @param companyId 机构id
+     * @param id 课程id
+     */
+    @Override
+    public void deleteCourseBaseInfo(Long companyId, Long id) {
+        // 校验
+        CourseBase courseBase = courseBaseMapper.selectById(id);
+        if (courseBase == null){
+            XueChengPlusException.cast("该课程不存在");
+        }
+
+        if(!companyId.equals(courseBase.getCompanyId())){
+            XueChengPlusException.cast("不能修改非本机构的课程信息");
+        }
+        String auditStatus = courseBase.getAuditStatus();
+        // 如果是未提交则可以删除
+        if(auditStatus.equals("202002")){
+            // 删除课程基本信息
+            courseBaseMapper.deleteById(id);
+            // 删除课程营销信息
+            courseMarketMapper.deleteById(id);
+            // 删除课程计划
+            LambdaQueryWrapper<Teachplan> queryWrapperTeachPlan = new LambdaQueryWrapper<>();
+            queryWrapperTeachPlan.eq(Teachplan::getCourseId,id);
+            teachplanMapper.delete(queryWrapperTeachPlan);
+            // 删除课程教师信息
+            LambdaQueryWrapper<CourseTeacher> queryWrapperCourseTeacher = new LambdaQueryWrapper<>();
+            queryWrapperCourseTeacher.eq(CourseTeacher::getCourseId,id);
+            courseTeacherMapper.delete(queryWrapperCourseTeacher);
+        }
     }
 }

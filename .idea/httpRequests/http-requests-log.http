@@ -1,3 +1,15 @@
+GET http://localhost:63040/content/teachplan/1/tree-nodes
+
+<> 2024-01-30T013521.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/117/tree-nodes
+
+<> 2024-01-29T151336.200.json
+
+###
+
 POST http://localhost:63040/content/course
 Content-Type: application/json
 

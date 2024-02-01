@@ -3,9 +3,22 @@ server:
     context-path: /system
   port: 63110
 #微服务配置
-#spring:
-#  application:
-#    name: system-api
+spring:
+  application:
+    name: system-service
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: dev402
+        group: xuecheng-plus-project
+#      config:
+#        namespace: dev402 #命名空间
+#        file-extension: yaml
+#        group: xuecheng-plus-project
+#        refresh-enabled: true
+  profiles:
+    active: dev
 #  datasource:
 #    driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:mysql://127.0.0.1:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&

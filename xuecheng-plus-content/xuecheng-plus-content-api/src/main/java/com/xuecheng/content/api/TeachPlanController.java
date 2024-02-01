@@ -50,7 +50,7 @@ public class TeachPlanController {
     }
 
     @PostMapping("/teachplan/moveup/{id}")
-    @ApiOperation("下移动课程计划")
+    @ApiOperation("上移动课程计划")
     public void moveUpTeachPlan(@PathVariable Long id) {
         moveUpTeachPlanService.moveUpTeachPlanById(id);
     }

@@ -1,3 +1,163 @@
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-02T001510.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-02T001358.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-02T000534.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-02T000148.200.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-01T235814.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-01T235545.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-01T235519.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< C:\Users\1\Desktop\1.jpg
+--WebAppBoundary--
+
+<> 2024-02-01T235418.500.json
+
+###
+
+GET http://localhost:63010/system/dictionary/all
+
+<> 2024-01-31T205216.200.json
+
+###
+
+GET http://localhost:63010/system/dictionary/all
+
+<> 2024-01-31T204926.503.json
+
+###
+
+GET http://localhost:63010/system/dictionary/all
+
+<> 2024-01-31T204914.503.json
+
+###
+
+GET http://localhost:63010/system/dictionary/all
+
+<> 2024-01-31T204911.503.json
+
+###
+
+GET http://localhost:63010/system/dictionary/all
+
+<> 2024-01-31T204855.503.json
+
+###
+
+GET http://localhost:63010/content/teachplan/1/tree-nodes
+
+<> 2024-01-31T204618.200.json
+
+###
+
+GET http://localhost:63010/content/course-category/tree-nodes
+
+<> 2024-01-31T204548.200.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+
+<> 2024-01-31T180030.200.json
+
+###
+
 GET http://localhost:63040/content/teachplan/1/tree-nodes
 
 <> 2024-01-30T013521.200.json

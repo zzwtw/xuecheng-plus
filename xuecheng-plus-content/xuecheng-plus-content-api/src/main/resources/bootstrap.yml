@@ -6,19 +6,43 @@ server:
 spring:
   application:
     name: content-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
-    username: root
-    password: 123456
+  cloud:
+    nacos:
+      server-addr: 127.0.0.1:8848
+      discovery:
+        namespace: dev402 # 命名空间
+        group: xuecheng-plus-project
+      config:
+        namespace: dev402 # 命名空间
+        file-extension: yaml
+        group: xuecheng-plus-project
+        refresh-enabled: true
+        extension-configs: # 将依赖的其他服务的配置拓展进来
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: xuecheng-plus-project
+            refresh: true
+        shared-configs: # 引入共享配置
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: logger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+  #  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+#    username: root
+#    password: 123456
 # 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
+  profiles:
+    active: dev #dataid的一部分
+#logging:
+#  config: classpath:log4j2-dev.xml
 
 # swagger
-swagger:
-  title: "学成在线内容管理新系统"
-  description: "内容系统管理系统对课程相关信息进行管理"
-  base-package: com.xuecheng.content
-  enabled: true
-  version: 1.0.0
+#swagger:
+#  title: "学成在线内容管理新系统"
+#  description: "内容系统管理系统对课程相关信息进行管理"
+#  base-package: com.xuecheng.content
+#  enabled: true
+#  version: 1.0.0

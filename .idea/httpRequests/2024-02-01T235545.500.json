@@ -1,0 +1,3 @@
+{
+  "errMessage": "Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field filedata exceeds its maximum permitted size of 1048576 bytes."
+}

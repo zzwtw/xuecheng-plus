@@ -8,7 +8,7 @@ content-type: application/json
 }
 
 ### 课程分类查询
-GET http://localhost:63040/content/course-category/tree-nodes
+GET http://localhost:63010/content/course-category/tree-nodes
 
 ### 新增课程信息
 POST http://localhost:63040/content/course
@@ -34,4 +34,7 @@ Content-Type: application/json
 }
 
 ### 获取课程计划树结构
-GET http://localhost:63040/content/teachplan/1/tree-nodes
+GET http://localhost:63010/content/teachplan/1/tree-nodes
+
+###
+GET http://localhost:63010/system/dictionary/all

@@ -57,4 +57,6 @@ public class MediaFilesController {
         String absolutePath = file.getAbsolutePath();
         return mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath);
     }
+
+
 }

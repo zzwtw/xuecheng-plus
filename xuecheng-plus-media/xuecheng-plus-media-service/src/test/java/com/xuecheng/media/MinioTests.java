@@ -15,6 +15,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class MinioTests {
 
@@ -58,7 +60,34 @@ public class MinioTests {
 
         InputStream inputStream = minioClient.getObject(getObjectArgs);
         FileOutputStream fileOutputStream = new FileOutputStream(new File("C:\\Users\\1\\Desktop\\学成在线\\第一部分\\minio\\1.xml"));
-        IoUtils.copy(inputStream,fileOutputStream);
+        IoUtils.copy(inputStream, fileOutputStream);
 
+    }
+
+    // 测试上传分块文件到minio
+    @Test
+    public void uploadChunk2Minio() throws Exception {
+        String chunkFilePath = "C:\\Users\\1\\Desktop\\素材\\chunk\\";
+        for (int i = 0; i < 14; i++) {
+            minioClient.uploadObject(UploadObjectArgs.builder()
+                    .bucket("testbucket")
+                    .filename(chunkFilePath + i)
+                    .object("chunk/" + i)
+                    .build());
+        }
+    }
+
+    // 合并minio中的文件
+    @Test
+    public void testMergeFile() throws Exception {
+        List<ComposeSource> composeObjectArgsList = new ArrayList<>();
+        for (int i = 0; i < 14; i++) {
+            composeObjectArgsList.add(ComposeSource.builder().bucket("testbucket").object("chunk/" + i).build());
+        }
+        minioClient.composeObject(ComposeObjectArgs.builder()
+                .bucket("testbucket")
+                .sources(composeObjectArgsList)
+                .object("chunk/merge.mp4")
+                .build());
     }
 }

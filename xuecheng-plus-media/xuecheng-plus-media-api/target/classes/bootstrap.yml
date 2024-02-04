@@ -28,6 +28,6 @@ spring:
     active: dev
   servlet:
     multipart:
-      max-file-size: 100MB
+      max-file-size: 100MB # 上传文件大小限制
       max-request-size: 100MB
 

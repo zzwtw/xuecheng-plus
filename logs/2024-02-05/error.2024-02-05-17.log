@@ -1,0 +1,286 @@
+2024-02-05 17:42:57,635 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:00,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:03,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:06,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:09,010 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:12,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:15,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:18,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:21,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:24,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:27,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:30,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:33,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:36,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:39,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:42,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:45,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:48,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:51,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:54,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:43:57,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:00,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:03,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:06,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:09,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:12,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:15,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:18,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:21,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:24,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:27,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:30,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:33,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:36,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:39,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:42,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:45,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:48,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:51,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:54,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:44:57,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:00,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:03,010 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:06,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:09,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:12,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:15,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:18,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:21,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:24,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:27,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:30,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:33,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:36,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:39,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:42,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:45,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:48,011 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:49,559 ERROR [Thread-10][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-05 17:45:51,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:54,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:45:56,309 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63050 or configure this application to listen on another port.
+
+2024-02-05 17:45:57,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:00,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:03,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:06,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:09,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:12,006 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:15,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:18,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:21,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:24,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:27,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:30,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:33,007 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:36,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:39,151 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:42,005 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:45,004 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:48,008 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:46:51,009 ERROR [xxl-job, JobThread-2-1707126177630][SampleXxlJob.java:45] - 执行器开始执行调度任务
+2024-02-05 17:47:30,082 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:33,009 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:36,006 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:39,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:42,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:45,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:48,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:51,009 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:51,232 ERROR [Thread-10][EmbedServer.java:93] - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:555)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:134)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:550)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:506)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:491)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:248)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:472)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:500)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-05 17:47:54,010 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:57,009 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:47:58,011 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 63050 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 63050 or configure this application to listen on another port.
+
+2024-02-05 17:48:00,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:03,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:06,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:09,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:12,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:15,006 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:18,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:21,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:24,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:27,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:30,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:33,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:36,009 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:39,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:42,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:45,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:48,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:51,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:54,007 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:48:57,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:00,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:03,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:06,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:09,006 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:12,005 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:15,006 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:18,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:49:21,008 ERROR [xxl-job, JobThread-2-1707126450078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:30,082 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:33,011 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:36,008 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:39,006 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:42,005 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:45,005 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:48,005 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:50:51,009 ERROR [xxl-job, JobThread-2-1707126630078][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:00,107 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:03,009 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:06,008 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:09,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:12,008 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:15,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:18,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:21,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:24,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:27,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:30,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:33,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:36,009 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:39,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:42,006 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:45,009 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:48,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:51,009 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:54,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:51:57,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:00,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:03,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:06,008 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:09,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:12,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:15,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:18,006 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:21,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:24,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:27,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:29,004 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:29,090 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:30,004 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:30,009 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:30,014 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:31,005 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:31,009 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:32,007 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:32,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:33,005 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:33,005 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:33,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:34,007 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:34,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:35,007 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:35,010 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:36,007 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:36,007 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:36,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:37,008 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:37,012 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:38,005 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:38,010 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:39,006 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:39,006 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:39,010 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:40,004 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:40,008 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:41,010 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:41,014 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:42,008 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:42,008 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:42,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:43,007 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:43,011 ERROR [xxl-job, JobThread-3-1707126749086][SampleXxlJob.java:60] - shardIndex1,shardTotal2
+2024-02-05 17:52:44,004 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:45,008 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:45,008 ERROR [xxl-job, JobThread-2-1707126660103][SampleXxlJob.java:46] - 执行器开始执行调度任务
+2024-02-05 17:52:46,006 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:52:47,006 ERROR [xxl-job, JobThread-3-1707126749002][SampleXxlJob.java:60] - shardIndex0,shardTotal2
+2024-02-05 17:53:51,235 ERROR [xxl-job, executor ExecutorRegistryThread][XxlJobRemotingUtil.java:143] - Connection refused: no further information
+java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:532)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:637)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:280)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:385)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:407)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at com.xxl.job.core.util.XxlJobRemotingUtil.postBody(XxlJobRemotingUtil.java:99)
+	at com.xxl.job.core.biz.client.AdminBizClient.registry(AdminBizClient.java:42)
+	at com.xxl.job.core.thread.ExecutorRegistryThread$1.run(ExecutorRegistryThread.java:48)
+	at java.base/java.lang.Thread.run(Thread.java:833)

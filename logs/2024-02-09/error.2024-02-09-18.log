@@ -1,0 +1,615 @@
+2024-02-10 17:23:39,176 ERROR [http-nio-63040-exec-2][GlobalExceptionHandler.java:35] - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+### The error may exist in com/xuecheng/content/mapper/CoursePublishPreMapper.java (best guess)
+### The error may involve com.xuecheng.content.mapper.CoursePublishPreMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO course_publish_pre  ( id,                  create_date )  VALUES  ( ?,                  ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+; Column 'id' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:87)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at jdk.proxy2/jdk.proxy2.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:60)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy106.insert(Unknown Source)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.commitAudit(CoursePublishServiceImpl.java:103)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$d0001098.commitAudit(<generated>)
+	at com.xuecheng.content.api.CoursePublishController.commitAudit(CoursePublishController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy3/jdk.proxy3.$Proxy153.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at jdk.proxy2/jdk.proxy2.$Proxy151.update(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:56)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.update(MybatisCachingExecutor.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:83)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy150.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 69 more
+2024-02-10 17:23:42,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:23:45,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:23:48,022 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:23:51,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:23:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:23:57,010 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:00,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:03,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:06,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:09,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:12,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:15,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:18,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:21,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:27,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:30,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:33,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:36,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:39,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:45,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:51,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:54,011 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:24:57,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:00,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:03,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:06,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:09,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:15,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:18,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:21,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:27,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:33,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:34,458 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:35] - 系统异常
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+### The error may exist in com/xuecheng/content/mapper/CoursePublishPreMapper.java (best guess)
+### The error may involve com.xuecheng.content.mapper.CoursePublishPreMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO course_publish_pre  ( id,                  create_date )  VALUES  ( ?,                  ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+; Column 'id' cannot be null; nested exception is java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+	at org.springframework.jdbc.support.SQLExceptionSubclassTranslator.doTranslate(SQLExceptionSubclassTranslator.java:87)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:72)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:88)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:440)
+	at jdk.proxy2/jdk.proxy2.$Proxy91.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:271)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperMethod.execute(MybatisMapperMethod.java:60)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy$PlainMethodInvoker.invoke(MybatisMapperProxy.java:148)
+	at com.baomidou.mybatisplus.core.override.MybatisMapperProxy.invoke(MybatisMapperProxy.java:89)
+	at jdk.proxy2/jdk.proxy2.$Proxy106.insert(Unknown Source)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.commitAudit(CoursePublishServiceImpl.java:107)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$32a68c4a.commitAudit(<generated>)
+	at com.xuecheng.content.api.CoursePublishController.commitAudit(CoursePublishController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Column 'id' cannot be null
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:59)
+	at jdk.proxy3/jdk.proxy3.$Proxy153.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:47)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:63)
+	at jdk.proxy2/jdk.proxy2.$Proxy151.update(Unknown Source)
+	at com.baomidou.mybatisplus.core.executor.MybatisSimpleExecutor.doUpdate(MybatisSimpleExecutor.java:56)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at com.baomidou.mybatisplus.core.executor.MybatisCachingExecutor.update(MybatisCachingExecutor.java:85)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor.intercept(MybatisPlusInterceptor.java:83)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy150.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:197)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:184)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:426)
+	... 69 more
+2024-02-10 17:25:36,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:39,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:42,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:45,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:51,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:25:57,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:00,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:03,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:06,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:09,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:12,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:15,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:21,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:27,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:33,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:36,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:39,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:45,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:51,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:54,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:26:57,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:00,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:03,003 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:06,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:09,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:15,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:21,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:24,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:27,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:33,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:36,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:39,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:45,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:48,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:51,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:27:57,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:00,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:03,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:06,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:09,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:15,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:21,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:27,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:30,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:33,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:36,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:39,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:45,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:51,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:54,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:28:57,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:00,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:03,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:06,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:09,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:15,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:21,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:24,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:27,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:33,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:36,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:39,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:42,000 ERROR [http-nio-63040-exec-5][GlobalExceptionHandler.java:27] - 系统异常
+com.xuecheng.base.exception.XueChengPlusException: 该课程不存在
+	at com.xuecheng.base.exception.XueChengPlusException.cast(XueChengPlusException.java:31)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.commitAudit(CoursePublishServiceImpl.java:75)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$d0001098.commitAudit(<generated>)
+	at com.xuecheng.content.api.CoursePublishController.commitAudit(CoursePublishController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-10 17:29:45,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:51,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:54,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:29:57,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:00,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:03,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:06,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:09,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:12,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:15,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:18,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:21,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:24,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:27,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:33,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:36,010 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:39,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:42,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:45,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:48,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:51,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:54,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:30:57,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:00,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:03,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:06,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:09,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:12,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:15,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:18,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:21,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:27,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:30,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:33,003 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:36,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:39,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:41,667 ERROR [http-nio-63040-exec-1][GlobalExceptionHandler.java:27] - 系统异常
+com.xuecheng.base.exception.XueChengPlusException: 该课程不存在
+	at com.xuecheng.base.exception.XueChengPlusException.cast(XueChengPlusException.java:31)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.commitAudit(CoursePublishServiceImpl.java:75)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:367)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:118)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$d0001098.commitAudit(<generated>)
+	at com.xuecheng.content.api.CoursePublishController.commitAudit(CoursePublishController.java:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-10 17:31:42,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:45,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:48,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:51,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:31:57,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:00,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:03,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:06,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:09,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:15,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:21,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:24,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:27,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:30,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:33,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:36,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:39,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:42,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:45,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:48,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:51,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:54,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:32:57,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:00,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:03,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:06,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:09,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:12,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:15,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:18,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:21,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:27,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:30,009 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:33,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:36,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:39,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:42,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:45,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:48,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:51,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:33:57,003 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:00,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:03,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:06,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:09,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:12,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:15,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:18,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:21,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:24,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:27,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:30,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:33,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:36,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:39,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:42,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:45,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:48,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:51,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:54,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:34:57,003 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:00,008 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:03,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:06,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:09,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:12,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:15,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:18,005 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:21,006 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:24,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:27,004 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1
+2024-02-10 17:35:30,007 ERROR [xxl-job, JobThread-2-1707557013124][SampleXxlJob.java:67] - shardIndex0,shardTotal1

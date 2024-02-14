@@ -1,0 +1,290 @@
+2024-02-14 14:00:00,068 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-02-14 14:00:00,068 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-02-14 14:00:00,061 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40gateway&udpPort=57956&clusters=DEFAULT, body: {}
+2024-02-14 14:00:00,061 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40gateway&udpPort=57956&clusters=DEFAULT, body: {}
+2024-02-14 14:00:00,069 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-02-14 14:00:00,069 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-02-14 14:00:00,069 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-02-14 14:00:00,069 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-02-14 14:00:00,072 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-02-14 14:00:00,072 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-02-14 14:00:00,072 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-02-14 14:00:00,072 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-02-14 14:00:00,073 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-02-14 14:00:00,073 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-02-14 14:00:00,073 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-02-14 14:00:00,073 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-02-14 14:00:00,074 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-02-14 14:00:00,074 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-02-14 14:00:00,075 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-02-14 14:00:00,075 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-02-14 14:00:00,078 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-02-14 14:00:00,078 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-02-14 14:00:00,078 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-02-14 14:00:00,078 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-02-14 14:00:00,079 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-02-14 14:00:00,080 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-02-14 14:00:00,080 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-02-14 14:00:00,165 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-14 14:00:00,165 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-02-14 14:00:00,198 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-02-14 14:00:00,198 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-02-14 14:00:00,955 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-02-14 14:00:00,955 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-02-14 14:00:01,090 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=57956&clusters=, body: {}
+2024-02-14 14:00:01,090 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40content-api&udpPort=57956&clusters=, body: {}
+2024-02-14 14:00:01,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2024-02-14 14:00:01,608 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2024-02-14 14:00:01,610 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2024-02-14 14:00:01,610 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2024-02-14 14:00:01,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-14 14:00:01,612 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2024-02-14 14:00:01,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2024-02-14 14:00:01,613 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2024-02-14 14:00:01,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-14 14:00:01,614 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2024-02-14 14:00:01,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2024-02-14 14:00:01,615 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2024-02-14 14:00:01,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2024-02-14 14:00:01,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2024-02-14 14:00:01,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2024-02-14 14:00:01,617 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2024-02-14 14:00:01,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-14 14:00:01,618 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2024-02-14 14:00:01,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-14 14:00:01,619 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2024-02-14 14:00:01,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2024-02-14 14:00:01,621 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2024-02-14 14:00:01,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2024-02-14 14:00:01,623 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2024-02-14 14:00:01,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-14 14:00:01,624 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2024-02-14 14:00:01,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-14 14:00:01,625 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2024-02-14 14:00:01,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-14 14:00:01,627 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2024-02-14 14:00:01,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2024-02-14 14:00:01,628 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2024-02-14 14:00:01,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2024-02-14 14:00:01,629 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2024-02-14 14:00:01,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2024-02-14 14:00:01,637 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2024-02-14 14:00:01,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2024-02-14 14:00:01,638 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2024-02-14 14:00:01,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2024-02-14 14:00:01,640 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2024-02-14 14:00:01,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2024-02-14 14:00:01,641 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2024-02-14 14:00:01,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2024-02-14 14:00:01,642 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2024-02-14 14:00:01,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2024-02-14 14:00:01,643 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2024-02-14 14:00:01,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2024-02-14 14:00:01,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2024-02-14 14:00:01,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2024-02-14 14:00:01,644 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2024-02-14 14:00:01,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2024-02-14 14:00:01,645 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2024-02-14 14:00:01,647 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2024-02-14 14:00:01,647 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2024-02-14 14:00:01,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2024-02-14 14:00:01,648 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2024-02-14 14:00:01,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2024-02-14 14:00:01,650 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2024-02-14 14:00:01,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2024-02-14 14:00:01,651 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2024-02-14 14:00:01,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2024-02-14 14:00:01,653 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2024-02-14 14:00:01,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2024-02-14 14:00:01,654 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2024-02-14 14:00:01,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2024-02-14 14:00:01,655 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2024-02-14 14:00:01,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2024-02-14 14:00:01,657 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2024-02-14 14:00:01,676 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6f2a1ff0[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-02-14 14:00:01,676 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:videoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@647ce968[class com.xuecheng.media.service.jobhandler.SampleXxlJob#videoJobHandler]
+2024-02-14 14:00:01,676 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@6f2a1ff0[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler]
+2024-02-14 14:00:01,676 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:videoJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@647ce968[class com.xuecheng.media.service.jobhandler.SampleXxlJob#videoJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2a2b3aff[class com.xuecheng.media.service.jobhandler.SampleXxlJob#httpJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:httpJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@2a2b3aff[class com.xuecheng.media.service.jobhandler.SampleXxlJob#httpJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bc9451b[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:shardingJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@4bc9451b[class com.xuecheng.media.service.jobhandler.SampleXxlJob#shardingJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@74a3160d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#commandJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:commandJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@74a3160d[class com.xuecheng.media.service.jobhandler.SampleXxlJob#commandJobHandler]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@77978658[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler2]
+2024-02-14 14:00:01,677 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:demoJobHandler2, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@77978658[class com.xuecheng.media.service.jobhandler.SampleXxlJob#demoJobHandler2]
+2024-02-14 14:00:01,749 DEBUG [Thread-10][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-02-14 14:00:01,749 DEBUG [Thread-10][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-02-14 14:00:01,751 DEBUG [Thread-10][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
+2024-02-14 14:00:01,751 DEBUG [Thread-10][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 32
+2024-02-14 14:00:01,775 DEBUG [Thread-10][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-02-14 14:00:01,775 DEBUG [Thread-10][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-02-14 14:00:01,775 DEBUG [Thread-10][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-02-14 14:00:01,775 DEBUG [Thread-10][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-02-14 14:00:01,785 DEBUG [Thread-10][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-02-14 14:00:01,785 DEBUG [Thread-10][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-02-14 14:00:01,785 DEBUG [Thread-10][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-02-14 14:00:01,785 DEBUG [Thread-10][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-02-14 14:00:01,802 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-02-14 14:00:01,802 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-02-14 14:00:01,803 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-02-14 14:00:01,803 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-02-14 14:00:01,803 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-02-14 14:00:01,803 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-02-14 14:00:01,807 DEBUG [main][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2024-02-14 14:00:01,807 DEBUG [main][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2024-02-14 14:00:01,808 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2024-02-14 14:00:01,808 DEBUG [Thread-10][PlatformDependent.java:1036] - Platform: Windows
+2024-02-14 14:00:01,808 DEBUG [Thread-10][PlatformDependent.java:1036] - Platform: Windows
+2024-02-14 14:00:01,808 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [127.0.0.1:8848]
+2024-02-14 14:00:01,809 DEBUG [Thread-10][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-02-14 14:00:01,809 DEBUG [Thread-10][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-02-14 14:00:01,809 DEBUG [Thread-10][PlatformDependent0.java:897] - Java version: 17
+2024-02-14 14:00:01,809 DEBUG [Thread-10][PlatformDependent0.java:897] - Java version: 17
+2024-02-14 14:00:01,811 DEBUG [Thread-10][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-02-14 14:00:01,811 DEBUG [Thread-10][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-02-14 14:00:01,811 DEBUG [Thread-10][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-02-14 14:00:01,811 DEBUG [Thread-10][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-02-14 14:00:01,812 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-02-14 14:00:01,812 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-02-14 14:00:01,812 DEBUG [Thread-10][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-02-14 14:00:01,812 DEBUG [Thread-10][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-02-14 14:00:01,815 DEBUG [Thread-10][PlatformDependent0.java:266] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
+	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:00:01,815 DEBUG [Thread-10][PlatformDependent0.java:266] - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:238)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:232)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
+	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:00:01,821 DEBUG [Thread-10][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-02-14 14:00:01,821 DEBUG [Thread-10][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-02-14 14:00:01,821 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-02-14 14:00:01,821 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-02-14 14:00:01,822 DEBUG [Thread-10][PlatformDependent0.java:390] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d2ffcb7
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
+	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:00:01,822 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=65515&clusters=DEFAULT, body: {}
+2024-02-14 14:00:01,822 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://127.0.0.1:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev402&clientIP=172.19.0.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=65515&clusters=DEFAULT, body: {}
+2024-02-14 14:00:01,822 DEBUG [Thread-10][PlatformDependent0.java:390] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @2d2ffcb7
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:560)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:352)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:318)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:343)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:293)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:92)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue0(NioEventLoop.java:279)
+	at io.netty.channel.nio.NioEventLoop.newTaskQueue(NioEventLoop.java:150)
+	at io.netty.channel.nio.NioEventLoop.<init>(NioEventLoop.java:138)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:146)
+	at io.netty.channel.nio.NioEventLoopGroup.newChild(NioEventLoopGroup.java:37)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:84)
+	at io.netty.util.concurrent.MultithreadEventExecutorGroup.<init>(MultithreadEventExecutorGroup.java:58)
+	at io.netty.channel.MultithreadEventLoopGroup.<init>(MultithreadEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:96)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:91)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:72)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:52)
+	at io.netty.channel.nio.NioEventLoopGroup.<init>(NioEventLoopGroup.java:44)
+	at com.xxl.job.core.server.EmbedServer$1.run(EmbedServer.java:42)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent.java:1181] - maxDirectMemory: 4223664128 bytes (maybe)
+2024-02-14 14:00:01,823 DEBUG [Thread-10][PlatformDependent.java:1181] - maxDirectMemory: 4223664128 bytes (maybe)
+2024-02-14 14:00:01,824 DEBUG [Thread-10][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\1\AppData\Local\Temp (java.io.tmpdir)
+2024-02-14 14:00:01,824 DEBUG [Thread-10][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\1\AppData\Local\Temp (java.io.tmpdir)
+2024-02-14 14:00:01,824 DEBUG [Thread-10][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-02-14 14:00:01,824 DEBUG [Thread-10][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-02-14 14:00:01,825 DEBUG [Thread-10][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: -1 bytes
+2024-02-14 14:00:01,825 DEBUG [Thread-10][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: -1 bytes
+2024-02-14 14:00:01,825 DEBUG [Thread-10][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-02-14 14:00:01,825 DEBUG [Thread-10][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-02-14 14:00:01,826 DEBUG [Thread-10][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2024-02-14 14:00:01,826 DEBUG [Thread-10][CleanerJava9.java:71] - java.nio.ByteBuffer.cleaner(): available
+2024-02-14 14:00:01,826 DEBUG [Thread-10][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-02-14 14:00:01,826 DEBUG [Thread-10][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-02-14 14:00:01,837 DEBUG [Thread-10][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-02-14 14:00:01,837 DEBUG [Thread-10][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-02-14 14:00:01,890 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2024-02-14 14:00:01,890 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2024-02-14 14:00:01,913 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2024-02-14 14:00:01,913 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2024-02-14 14:00:01,917 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.146.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-02-14 14:00:01,917 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.146.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-02-14 14:00:01,918 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev402 registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.146.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-02-14 14:00:01,918 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev402 registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.146.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-02-14 14:00:01,920 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev402&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.146.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2024-02-14 14:00:01,920 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://127.0.0.1:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev402&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.146.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2024-02-14 14:00:01,923 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.146.1:63050 register finished
+2024-02-14 14:00:01,923 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.146.1:63050 register finished

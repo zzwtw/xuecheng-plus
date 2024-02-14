@@ -60,7 +60,6 @@ public class SampleXxlJob {
 
     @XxlJob("videoJobHandler")
     public void videoJobHandler() throws Exception {
-        System.out.println("==============================================================================");
         // 分片参数
         int shardIndex = XxlJobHelper.getShardIndex();
         int shardTotal = XxlJobHelper.getShardTotal();

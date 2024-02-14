@@ -21,7 +21,7 @@ public class MessageCodeGenerator {
 	//数据库账号
 	private static final String DATA_SOURCE_USER_NAME  = "root";
 	//数据库密码
-	private static final String DATA_SOURCE_PASSWORD  = "mysql";
+	private static final String DATA_SOURCE_PASSWORD  = "123456";
 	//生成的表
 	private static final String[] TABLE_NAMES = new String[]{
 			"mq_message",

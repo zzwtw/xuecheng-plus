@@ -1,0 +1,1560 @@
+2024-02-14 14:00:03,133 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:06,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:21,599 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field mediaServiceClient in com.xuecheng.content.service.impl.CoursePublishServiceImpl required a bean of type 'com.xuecheng.content.FeignClient.MediaServiceClient' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.xuecheng.content.FeignClient.MediaServiceClient' in your configuration.
+
+2024-02-14 14:00:24,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:33,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:39,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:54,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:00:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:03,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:42,013 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:01:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:03,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:18,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:21,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:27,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:51,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:02:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:18,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:24,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:45,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:03:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:03,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:27,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:36,968 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:35] - 系统异常
+java.lang.NullPointerException: Cannot invoke "org.apache.commons.io.output.DeferredFileOutputStream.isInMemory()" because "this.dfos" is null
+	at org.apache.commons.fileupload.disk.DiskFileItem.getSize(DiskFileItem.java:284)
+	at org.springframework.web.multipart.commons.CommonsMultipartFile.<init>(CommonsMultipartFile.java:63)
+	at com.xuecheng.content.config.MultipartSupportConfig.getMultipartFile(MultipartSupportConfig.java:53)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl.test(CoursePublishServiceImpl.java:215)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$FastClassBySpringCGLIB$$544e091.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
+	at com.xuecheng.content.service.impl.CoursePublishServiceImpl$$EnhancerBySpringCGLIB$$599af66f.test(<generated>)
+	at com.xuecheng.content.api.CoursePublishController.test(CoursePublishController.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:04:39,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:42,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:04:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:03,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:05:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:11,865 ERROR [http-nio-63040-exec-2][GlobalExceptionHandler.java:35] - 系统异常
+com.netflix.hystrix.exception.HystrixRuntimeException: MediaServiceClient#uploadFile(MultipartFile,String) failed and no fallback available.
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:822)
+	at com.netflix.hystrix.AbstractCommand$22.call(AbstractCommand.java:807)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:140)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnFallbackHookApplication$1.onError(AbstractCommand.java:1472)
+	at com.netflix.hystrix.AbstractCommand$FallbackHookApplication$1.onError(AbstractCommand.java:1397)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorOnErrorResumeNextViaFunction$4.onError(OperatorOnErrorResumeNextViaFunction.java:142)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at com.netflix.hystrix.AbstractCommand$HystrixObservableTimeoutOperator$3.onError(AbstractCommand.java:1194)
+	at rx.internal.operators.OperatorSubscribeOn$SubscribeOnSubscriber.onError(OperatorSubscribeOn.java:80)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.internal.operators.OnSubscribeDoOnEach$DoOnEachSubscriber.onError(OnSubscribeDoOnEach.java:87)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at com.netflix.hystrix.AbstractCommand$DeprecatedOnRunHookApplication$1.onError(AbstractCommand.java:1431)
+	at com.netflix.hystrix.AbstractCommand$ExecutionHookApplication$1.onError(AbstractCommand.java:1362)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.observers.Subscribers$5.onError(Subscribers.java:230)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:44)
+	at rx.internal.operators.OnSubscribeThrow.call(OnSubscribeThrow.java:28)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:51)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:35)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:41)
+	at rx.internal.operators.OnSubscribeDoOnEach.call(OnSubscribeDoOnEach.java:30)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:48)
+	at rx.internal.operators.OnSubscribeLift.call(OnSubscribeLift.java:30)
+	at rx.Observable.unsafeSubscribe(Observable.java:10327)
+	at rx.internal.operators.OperatorSubscribeOn$SubscribeOnSubscriber.call(OperatorSubscribeOn.java:100)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:56)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction$1.call(HystrixContexSchedulerAction.java:47)
+	at com.netflix.hystrix.strategy.concurrency.HystrixContexSchedulerAction.call(HystrixContexSchedulerAction.java:69)
+	at rx.internal.schedulers.ScheduledAction.run(ScheduledAction.java:55)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: feign.codec.EncodeException: Error converting request body
+	at org.springframework.cloud.openfeign.support.SpringEncoder.encode(SpringEncoder.java:119)
+	at feign.form.FormEncoder.encode(FormEncoder.java:90)
+	at feign.form.spring.SpringFormEncoder.encode(SpringFormEncoder.java:84)
+	at feign.ReflectiveFeign$BuildFormEncodedTemplateFromArgs.resolve(ReflectiveFeign.java:353)
+	at feign.ReflectiveFeign$BuildTemplateByResolvingArgs.create(ReflectiveFeign.java:232)
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:84)
+	at feign.hystrix.HystrixInvocationHandler$1.run(HystrixInvocationHandler.java:109)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:302)
+	at com.netflix.hystrix.HystrixCommand$2.call(HystrixCommand.java:298)
+	at rx.internal.operators.OnSubscribeDefer.call(OnSubscribeDefer.java:46)
+	... 26 more
+Caused by: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class java.io.FileDescriptor]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class java.io.FileDescriptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.LinkedHashMap["filedata"]->org.springframework.web.multipart.commons.CommonsMultipartFile["fileItem"]->org.apache.commons.fileupload.disk.DiskFileItem["inputStream"]->java.io.FileInputStream["fd"])
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:353)
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104)
+	at org.springframework.cloud.openfeign.support.SpringEncoder.checkAndWrite(SpringEncoder.java:176)
+	at org.springframework.cloud.openfeign.support.SpringEncoder.encode(SpringEncoder.java:109)
+	... 35 more
+Caused by: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class java.io.FileDescriptor and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.LinkedHashMap["filedata"]->org.springframework.web.multipart.commons.CommonsMultipartFile["fileItem"]->org.apache.commons.fileupload.disk.DiskFileItem["inputStream"]->java.io.FileInputStream["fd"])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1277)
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71)
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:728)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:755)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:178)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:726)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeWithoutTypeInfo(MapSerializer.java:681)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:637)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400)
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1512)
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006)
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:346)
+	... 38 more
+2024-02-14 14:06:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:39,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:45,069 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:48,014 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:06:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:07:57,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:08:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:18,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:21,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:45,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:09:57,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:24,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:36,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:39,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:51,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:10:57,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:36,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:52,095 ERROR [http-nio-63040-exec-2][_JULLoggerFactory.java:60] - Error executing FreeMarker template
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> names  [in template "test.ftl" at line 8, column 9]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${names}  [in template "test.ftl" at line 8, column 7]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:11:52,102 ERROR [http-nio-63040-exec-2][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is freemarker.core.InvalidReferenceException: The following has evaluated to null or missing:
+==> names  [in template "test.ftl" at line 8, column 9]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${names}  [in template "test.ftl" at line 8, column 7]
+----] with root cause
+FreeMarker template error:
+The following has evaluated to null or missing:
+==> names  [in template "test.ftl" at line 8, column 9]
+
+----
+Tip: If the failing expression is known to legally refer to something that's sometimes null or missing, either specify a default value like myOptionalVar!myDefault, or use <#if myOptionalVar??>when-present<#else>when-missing</#if>. (These only cover the last step of the expression; to cover the whole expression, use parenthesis: (myOptionalVar.foo)!myDefault, (myOptionalVar.foo)??
+----
+
+----
+FTL stack trace ("~" means nesting-related):
+	- Failed at: ${names}  [in template "test.ftl" at line 8, column 7]
+----
+
+Java stack trace (for programmers):
+----
+freemarker.core.InvalidReferenceException: [... Exception message was already printed; see it above ...]
+	at freemarker.core.InvalidReferenceException.getInstance(InvalidReferenceException.java:134)
+	at freemarker.core.EvalUtil.coerceModelToTextualCommon(EvalUtil.java:481)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:401)
+	at freemarker.core.EvalUtil.coerceModelToStringOrMarkup(EvalUtil.java:370)
+	at freemarker.core.DollarVariable.calculateInterpolatedStringOrMarkup(DollarVariable.java:100)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:63)
+	at freemarker.core.Environment.visit(Environment.java:334)
+	at freemarker.core.Environment.visit(Environment.java:340)
+	at freemarker.core.Environment.process(Environment.java:313)
+	at freemarker.template.Template.process(Template.java:383)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.processTemplate(FreeMarkerView.java:391)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.doRender(FreeMarkerView.java:304)
+	at org.springframework.web.servlet.view.freemarker.FreeMarkerView.renderMergedTemplateModel(FreeMarkerView.java:255)
+	at org.springframework.web.servlet.view.AbstractTemplateView.renderMergedOutputModel(AbstractTemplateView.java:179)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2024-02-14 14:11:52,120 ERROR [http-nio-63040-exec-2][ErrorMvcAutoConfiguration.java:204] - Cannot render error page for request [/content/test] and exception [] as the response has already been committed. As a result, the response may have the wrong status code.
+2024-02-14 14:11:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:11:54,027 ERROR [pool-239-thread-1][SampleXxlJob.java:148] - 文件拓展名不是avi!
+2024-02-14 14:11:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:30,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:51,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:12:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:13:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:30,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:14:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:15:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:09,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:33,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:45,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:16:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:18,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:24,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:48,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:17:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:12,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:42,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:45,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:18:57,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:06,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:51,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:19:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:00,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:27,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:42,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:51,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:20:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:45,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:21:57,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:21,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:30,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:22:57,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:09,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:27,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:42,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:45,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:23:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:36,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:24:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:03,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:06,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:27,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:45,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:25:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:27,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:30,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:42,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:48,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:26:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:12,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:18,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:36,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:42,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:27:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:06,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:09,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:24,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:28:57,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:12,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:29:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:18,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:24,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:30:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:03,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:09,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:30,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:51,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:31:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:36,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:32:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:09,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:24,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:33,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:36,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:33:57,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:21,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:27,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:54,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:34:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:15,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:21,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:45,150 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:35:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:15,040 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:30,029 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:42,140 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:45,056 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:51,058 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:36:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:00,060 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:09,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:51,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:54,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:37:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:00,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:15,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:21,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:33,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:36,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:48,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:38:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:15,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:36,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:54,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:39:57,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:39,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:40:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:00,023 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:03,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:18,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:36,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:41:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:03,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:42:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:03,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:15,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:24,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:27,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:39,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:43:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:39,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:42,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:48,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:44:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:00,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:21,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:24,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:39,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:45:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:45,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:46:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:00,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:24,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:30,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:47:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:12,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:24,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:30,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:48:57,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:09,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:27,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:30,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:33,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:42,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:54,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:49:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:30,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:51,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:50:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:03,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:12,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:33,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:42,010 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:51,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:54,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:51:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:03,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:06,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:42,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:48,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:52:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:00,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:03,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:09,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:15,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:45,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:53:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:06,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:09,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:15,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:18,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:42,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:45,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:48,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:51,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:54:57,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:00,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:03,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:06,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:09,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:12,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:18,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:27,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:30,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:33,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:36,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:39,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:42,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:45,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:51,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:54,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:55:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:03,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:06,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:09,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:12,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:15,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:18,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:21,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:24,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:27,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:30,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:33,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:39,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:42,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:48,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:56:57,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:03,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:12,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:15,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:18,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:21,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:33,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:39,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:42,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:45,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:51,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:57:57,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:00,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:03,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:06,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:09,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:12,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:15,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:18,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:21,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:24,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:30,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:36,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:39,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:42,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:45,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:54,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:58:57,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:00,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:03,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:06,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:09,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:12,009 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:15,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:18,003 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:21,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:24,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:27,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:30,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:33,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:36,005 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:39,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:42,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:45,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:48,004 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:51,008 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:54,007 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-14 14:59:57,006 ERROR [xxl-job, JobThread-2-1707890403127][SampleXxlJob.java:66] - shardIndex0,shardTotal1

@@ -1,10 +1,12 @@
 package com.xuecheng.content.api;
 
 import com.xuecheng.base.model.TeachPlanResult;
+import com.xuecheng.content.model.dto.BindTeachplanMediaDto;
 import com.xuecheng.content.model.dto.SaveTeachPlanDto;
 import com.xuecheng.content.model.dto.TeachPlanDto;
 import com.xuecheng.content.service.*;
 import io.swagger.annotations.ApiOperation;
+import org.apache.ibatis.annotations.Delete;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -53,5 +55,17 @@ public class TeachPlanController {
     @ApiOperation("上移动课程计划")
     public void moveUpTeachPlan(@PathVariable Long id) {
         moveUpTeachPlanService.moveUpTeachPlanById(id);
+    }
+
+    @PostMapping("/teachplan/association/media")
+    @ApiOperation("课程计划绑定媒资视频")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+        teachPlanService.associationMedia(bindTeachplanMediaDto);
+    }
+
+    @DeleteMapping("/teachplan/association/media/{teachPlanId}/{mediaId}")
+    @ApiOperation("删除课程计划绑定的媒资视频")
+    public void deleteAssociationMedia(@PathVariable String mediaId, @PathVariable Long teachPlanId){
+        teachPlanService.deleteAssociationMedia(mediaId,teachPlanId);
     }
 }

@@ -1,6 +1,7 @@
 package com.xuecheng.media.service.impl;
 
 import com.alibaba.nacos.common.utils.IoUtils;
+import com.alibaba.nacos.common.utils.StringUtils;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.fasterxml.jackson.databind.annotation.JsonAppend;
@@ -28,7 +29,6 @@ import io.minio.messages.DeleteObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -107,7 +107,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @description 上传文件
      */
     @Override
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName) {
         // 获取文件
         File file = new File(localFilePath);
         // 获取文件名
@@ -121,11 +121,13 @@ public class MediaFileServiceImpl implements MediaFileService {
         // 获取文件的MD5值
         String fileMd5 = getFileMd5(file);
         // 整合文件子目录与文件名与后缀
-        String objectName = objectFolder + fileMd5 + extension;
+        if (StringUtils.isEmpty(objectName)){
+            objectName = objectFolder + fileMd5 + extension;
+        }
         // 上传图片到minio
         upLoadFile2MinIo(localFilePath, mimeType, objectName,mediaFilesBucket);
         // 保存图片数据到数据库
-        MediaFiles mediaFiles = insertFileData2DataBase(companyId, uploadFileParamsDto, fileMd5, objectName);
+        MediaFiles mediaFiles = insertFileData2DataBase(companyId, uploadFileParamsDto, fileMd5, objectName,mediaFilesBucket);
         // 创建返回对象
         UploadFileResultDto uploadFileResultDto = new UploadFileResultDto();
         BeanUtils.copyProperties(mediaFiles, uploadFileResultDto);
@@ -258,7 +260,7 @@ public class MediaFileServiceImpl implements MediaFileService {
             if (downloadFileMd5.equals(fileMd5)) {
                 // 插入数据库
                 uploadFileParamsDto.setFileSize(downloadFile.length());
-                MediaFiles mediaFiles = insertFileData2DataBase(companyId, uploadFileParamsDto, fileMd5, mergeFileObjectName);
+                MediaFiles mediaFiles = insertFileData2DataBase(companyId, uploadFileParamsDto, fileMd5, mergeFileObjectName,videoFilesBucket);
             } else {
                 return RestResponse.validfail(false, "文件合并校验失败，最终上传失败。");
             }
@@ -421,6 +423,17 @@ public class MediaFileServiceImpl implements MediaFileService {
         return fileMd5.substring(0, 1) + "/" + fileMd5.substring(1, 2) + "/" + fileMd5 + "/" + fileMd5 + extension;
     }
 
+    /**
+     * @description 根据媒资视频id查询媒资视频url（播放地址）
+     * @param mediaId 媒资id
+     * @return 媒资文件信息
+     */
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        MediaFiles mediaFiles = mediaFilesMapper.selectById(mediaId);
+        return mediaFiles;
+    }
+
 
     /**
      * @param companyId           机构id
@@ -430,20 +443,20 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @return
      * @description 插入文件信息到数据库中
      */
-    private MediaFiles insertFileData2DataBase(Long companyId, UploadFileParamsDto uploadFileParamsDto, String fileMd5, String objectName) {
+    private MediaFiles insertFileData2DataBase(Long companyId, UploadFileParamsDto uploadFileParamsDto, String fileMd5, String objectName,String bucket) {
         MediaFiles mediaFiles = new MediaFiles();
         BeanUtils.copyProperties(uploadFileParamsDto, mediaFiles);
         mediaFiles.setCompanyId(companyId);
         // 插入文件id，也就是文件的md5
         mediaFiles.setFileId(fileMd5);
         // 插入文件的存储目录，也就是文件所在的bucket
-        mediaFiles.setBucket(mediaFilesBucket);
+        mediaFiles.setBucket(bucket);
         // 插入文件的存储路径，也就是文件的子目录 + md5 + 后缀
         mediaFiles.setFilePath(objectName);
         // 插入id
         mediaFiles.setId(fileMd5);
         // 插入url,url = bucket + 子目录 + 文件的md5值 + 后缀
-        String url = "/" + mediaFilesBucket + "/" + objectName;
+        String url = "/" + bucket + "/" + objectName;
         mediaFiles.setUrl(url);
         // 时间
         mediaFiles.setCreateDate(LocalDateTime.now());

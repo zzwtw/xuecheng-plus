@@ -33,7 +33,7 @@ public interface MediaFileService {
      */
     public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto);
 
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName);
 
     public RestResponse<Boolean> checkFile(String fileMd5);
 
@@ -69,5 +69,7 @@ public interface MediaFileService {
 
     public void upLoadFile2MinIo(String localFilePath, String mimeType, String objectName, String bucketName);
     public String getMergeFileObjectName(String fileMd5, String extension);
+
+    public MediaFiles getFileById(String mediaId);
 }
 

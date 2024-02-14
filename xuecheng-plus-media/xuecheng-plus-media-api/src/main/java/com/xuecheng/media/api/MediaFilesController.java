@@ -10,6 +10,7 @@ import com.xuecheng.media.service.MediaFileService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -41,7 +42,7 @@ public class MediaFilesController {
 
     @ApiOperation("上传图片接口")
     @RequestMapping("/upload/coursefile")
-    public UploadFileResultDto uploadFile(@RequestPart("filedata") MultipartFile uploadFile) throws IOException {
+    public UploadFileResultDto uploadFile(@RequestPart("filedata") MultipartFile uploadFile, @RequestParam(value = "objectName", required = false) String objectName) throws IOException {
         Long companyId = 1232141425L;
         UploadFileParamsDto uploadFileParamsDto = new UploadFileParamsDto();
         uploadFileParamsDto.setFilename(uploadFile.getOriginalFilename());
@@ -55,7 +56,7 @@ public class MediaFilesController {
         uploadFile.transferTo(file);
         // 获取本地文件路径
         String absolutePath = file.getAbsolutePath();
-        return mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath);
+        return mediaFileService.uploadFile(companyId, uploadFileParamsDto, absolutePath,objectName);
     }
 
 

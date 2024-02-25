@@ -89,9 +89,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     }
 
     /**
-     * @description 提交课程审核
      * @param companyId 机构id
-     * @param courseId 课程id
+     * @param courseId  课程id
+     * @description 提交课程审核
      */
     @Transactional // 事务控制
     @Override
@@ -208,7 +208,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
      */
     private void saveCoursePublishMessage(Long courseId) {
         MqMessage mqMessage = mqMessageService.addMessage("course_publish", String.valueOf(courseId), null, null);
-        if (mqMessage == null){
+        if (mqMessage == null) {
             XueChengPlusException.cast(CommonError.UNKOWN_ERROR);
         }
 
@@ -219,7 +219,18 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         File file = new File("C:\\Users\\1\\Desktop\\video\\1.html");
         MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
         String objectName = "course/1.html";
-        mediaServiceClient.uploadFile(multipartFile,objectName);
+        mediaServiceClient.uploadFile(multipartFile, objectName);
+    }
+
+    /**
+     * @param courseId 机构id
+     * @return
+     * @description 根据课程id查询课程发布信息
+     */
+    @Override
+    public CoursePublish getCoursepublish(Long courseId) {
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        return coursePublish;
     }
 
 }

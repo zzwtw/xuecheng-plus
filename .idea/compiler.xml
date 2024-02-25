@@ -16,34 +16,54 @@
           <entry name="$USER_HOME$/apache-maven-3.6.1/mvn_repo/org/projectlombok/lombok/1.18.8/lombok-1.18.8.jar" />
         </processorPath>
         <module name="xuecheng-plus-message-sdk" />
+        <module name="xuecheng-plus-checkcode" />
         <module name="xuecheng-plus-media-api" />
+        <module name="xuecheng-plus-learning-model" />
         <module name="xuecheng-plus-content-service" />
+        <module name="xuecheng-plus-search" />
+        <module name="xuecheng-plus-orders-model" />
         <module name="xuecheng-plus-media-service" />
         <module name="xuecheng-plus-content-model" />
-        <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-media-model" />
+        <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-base" />
+        <module name="xuecheng-plus-learning-api" />
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-gateway" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
+        <module name="xuecheng-plus-auth" />
         <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-orders-service" />
+        <module name="xuecheng-plus-orders-api" />
+        <module name="xuecheng-plus-learning-service" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17">
+    <bytecodeTargetLevel target="8">
+      <module name="xuecheng-plus-auth" target="1.8" />
       <module name="xuecheng-plus-base" target="1.8" />
+      <module name="xuecheng-plus-checkcode" target="1.8" />
       <module name="xuecheng-plus-content" target="1.8" />
       <module name="xuecheng-plus-content-api" target="1.8" />
       <module name="xuecheng-plus-content-model" target="1.8" />
       <module name="xuecheng-plus-content-service" target="1.8" />
       <module name="xuecheng-plus-gateway" target="1.8" />
       <module name="xuecheng-plus-generator" target="1.8" />
+      <module name="xuecheng-plus-learning" target="1.8" />
+      <module name="xuecheng-plus-learning-api" target="1.8" />
+      <module name="xuecheng-plus-learning-model" target="1.8" />
+      <module name="xuecheng-plus-learning-service" target="1.8" />
       <module name="xuecheng-plus-media" target="1.8" />
       <module name="xuecheng-plus-media-api" target="1.8" />
       <module name="xuecheng-plus-media-model" target="1.8" />
       <module name="xuecheng-plus-media-service" target="1.8" />
       <module name="xuecheng-plus-message-sdk" target="1.8" />
+      <module name="xuecheng-plus-orders" target="1.8" />
+      <module name="xuecheng-plus-orders-api" target="1.8" />
+      <module name="xuecheng-plus-orders-model" target="1.8" />
+      <module name="xuecheng-plus-orders-service" target="1.8" />
       <module name="xuecheng-plus-parent" target="1.8" />
+      <module name="xuecheng-plus-search" target="1.8" />
       <module name="xuecheng-plus-system" target="1.8" />
       <module name="xuecheng-plus-system-api" target="1.8" />
       <module name="xuecheng-plus-system-model" target="1.8" />

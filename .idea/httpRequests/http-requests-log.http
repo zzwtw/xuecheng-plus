@@ -1,529 +1,357 @@
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/verify?key=checkcode:81438a43acf747af8fe6dab28cd37333&code=14PY
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-02T001510.500.json
+<> 2024-02-17T124944.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/pic
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-02T001358.500.json
+<> 2024-02-17T124926.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/pic
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-02T000534.500.json
+<> 2024-02-17T124908.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/verify?key=checkcode:c369de8b9a554d8c897cc6df547fc429&code=XKC6
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-02T000148.200.json
+<> 2024-02-17T124903.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/verify?key=checkcode:c369de8b9a554d8c897cc6df547fc429&code=XKC6
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-01T235814.500.json
+<> 2024-02-17T124902.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/verify?key=checkcode:c369de8b9a554d8c897cc6df547fc429&code=XKC6
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-01T235545.500.json
+<> 2024-02-17T124900.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/verify?key=checkcode:c369de8b9a554d8c897cc6df547fc429&code=XKC6
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-01T235519.500.json
+<> 2024-02-17T124857.200.json
 
 ###
 
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
+POST http://localhost:63075/checkcode/pic
 
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< C:\Users\1\Desktop\1.jpg
---WebAppBoundary--
-
-<> 2024-02-01T235418.500.json
+<> 2024-02-17T124832.200.json
 
 ###
 
-GET http://localhost:63010/system/dictionary/all
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=BJVM
 
-<> 2024-01-31T205216.200.json
-
-###
-
-GET http://localhost:63010/system/dictionary/all
-
-<> 2024-01-31T204926.503.json
+<> 2024-02-17T124745.200.json
 
 ###
 
-GET http://localhost:63010/system/dictionary/all
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=BJVM
 
-<> 2024-01-31T204914.503.json
-
-###
-
-GET http://localhost:63010/system/dictionary/all
-
-<> 2024-01-31T204911.503.json
+<> 2024-02-17T124743.200.json
 
 ###
 
-GET http://localhost:63010/system/dictionary/all
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=bjvm
 
-<> 2024-01-31T204855.503.json
-
-###
-
-GET http://localhost:63010/content/teachplan/1/tree-nodes
-
-<> 2024-01-31T204618.200.json
+<> 2024-02-17T124732.200.json
 
 ###
 
-GET http://localhost:63010/content/course-category/tree-nodes
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=bjvm
 
-<> 2024-01-31T204548.200.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-
-<> 2024-01-31T180030.200.json
+<> 2024-02-17T124730.200.json
 
 ###
 
-GET http://localhost:63040/content/teachplan/1/tree-nodes
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=bjvm
 
-<> 2024-01-30T013521.200.json
-
-###
-
-GET http://localhost:63040/content/teachplan/117/tree-nodes
-
-<> 2024-01-29T151336.200.json
+<> 2024-02-17T124728-1.200.json
 
 ###
 
-POST http://localhost:63040/content/course
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=bjvm
+
+<> 2024-02-17T124728.200.json
+
+###
+
+POST http://localhost:63075/checkcode/verify?key=checkcode:ba6421ef70a541a2bf32b621c848d3b2&code=bjvm
+
+<> 2024-02-17T124726.200.json
+
+###
+
+POST http://localhost:63075/checkcode/pic
+
+<> 2024-02-17T124610.200.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+
+<> 2024-02-17T124424.200.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+
+<> 2024-02-17T123119.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+
+<> 2024-02-17T122731.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+
+<> 2024-02-17T122727.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}&password=111111
+
+<> 2024-02-17T122642.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}&password=111111
+
+<> 2024-02-17T122638.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}
+
+<> 2024-02-17T122558.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}
+
+<> 2024-02-17T122336.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}
+
+<> 2024-02-17T122332.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}
+
+<> 2024-02-17T122317.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","password":"111111","authType":"password"}
+
+<> 2024-02-17T122217.401.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+
+<> 2024-02-17T122130.401.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMi0wOS0yOFQxOToyODo0NlwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUwXCIsXCJuYW1lXCI6XCLlrabnlJ8xXCIsXCJuaWNrbmFtZVwiOlwi5aSn5rC054mbXCIsXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiMVwiLFwidXNlcm5hbWVcIjpcInN0dTFcIixcInVzZXJwaWNcIjpcImh0dHA6Ly9maWxlLnh1ZWNoZW5nLXBsdXMuY29tL2RkZGZcIixcInV0eXBlXCI6XCIxMDEwMDFcIn0iLCJzY29wZSI6WyJhbGwiXSwiZXhwIjoxNzA4MDcyNzk2LCJhdXRob3JpdGllcyI6WyJ0ZXN0Il0sImp0aSI6IjZkN2Q0NTUwLTYxMzQtNGM0MC05NmFiLTA2NTg0NTYyNWNiNiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.vai8U8LMLn0t6xo7X-dD8E2rJtib3HgUTNcr8goSv4A
+
+<> 2024-02-16T144020.200.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+
+<> 2024-02-16T143956.200.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+
+<> 2024-02-16T135107.200.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=11111
+
+<> 2024-02-16T135104.400.json
+
+###
+
+POST http://localhost:63010/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+
+<> 2024-02-16T135056.200.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T132850.200.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T132055.200.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T132051.401.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer aeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T132043.401.json
+
+###
+
+GET http://localhost:63010/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T132039.200.json
+
+###
+
+GET http://localhost:63040/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T131707.200.json
+
+###
+
+GET http://localhost:63040/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T131406.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+
+<> 2024-02-16T131349.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T131346.200.json
+
+###
+
+GET http://localhost:63040/content/course/2
+
+<> 2024-02-16T131309.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y
+
+<> 2024-02-16T130727.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+
+<> 2024-02-16T130623.200.json
+
+###
+
+POST http://localhost:63070/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
+
+<> 2024-02-16T130613.404.html
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=cpWwk7&redirect_uri=http://www.51xuecheng.cn
+
+<> 2024-02-15T161344.200.json
+
+###
+
+POST http://localhost:63080/search/index/course
 Content-Type: application/json
 
 {
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
+  "charge" : "201000",
+  "companyId" : 100000,
+  "companyName" : "北京黑马程序",
+  "createDate" : "2022-09-25 09:36:11",
+  "description" : "《Spring编程思想》是2007年6月1日机械工业出版社出版的图书，作者是埃克尔，译者是陈昊鹏。主要内容本书赢得了全球程序员的广泛赞誉，即使是最晦涩的概念，在Bruce Eckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到最高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握。从本书获得的各项大奖以及来自世界各地的读者评论中，不难看出这是一本经典之作",
+  "grade" : "204001",
+  "id" : 103,
+  "mt" : "1-3",
+  "mtName" : "编程开发",
+  "name" : "Spring编程思想",
+  "originalPrice" : 200.0,
+  "pic" : "/mediafiles/2022/09/20/1d0f0e6ed8a0c4a89bfd304b84599d9c.png",
+  "price" : 100.0,
+  "remark" : "没有备注",
+  "st" : "1-3-2",
+  "stName" : "Java语言",
+  "status" : "203002",
+  "tags" : "没有标签",
+  "teachmode" : "200002",
+  "validDays" : 222
 }
 
-<> 2024-01-27T153246.500.json
+<> 2024-02-15T145350.200.json
 
 ###
 
-POST http://localhost:63040/content/course
+POST http://localhost:63080/search/index/course
 Content-Type: application/json
 
 {
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
+  "charge" : "201000",
+  "companyId" : 100000,
+  "companyName" : "北京黑马程序",
+  "createDate" : "2022-09-25 09:36:11",
+  "description" : "《Spring编程思想》是2007年6月1日机械工业出版社出版的图书，作者是埃克尔，译者是陈昊鹏。主要内容本书赢得了全球程序员的广泛赞誉，即使是最晦涩的概念，在Bruce Eckel的文字亲和力和小而直接的编程示例面前也会化解于无形。从Java的基础语法到最高级特性（深入的面向对象概念、多线程、自动项目构建、单元测试和调试等），本书都能逐步指导你轻松掌握。从本书获得的各项大奖以及来自世界各地的读者评论中，不难看出这是一本经典之作",
+  "grade" : "204001",
+  "id" : 102,
+  "mt" : "1-3",
+  "mtName" : "编程开发",
+  "name" : "Spring编程思想",
+  "originalPrice" : 200.0,
+  "pic" : "/mediafiles/2022/09/20/1d0f0e6ed8a0c4a89bfd304b84599d9c.png",
+  "price" : 100.0,
+  "remark" : "没有备注",
+  "st" : "1-3-2",
+  "stName" : "Java语言",
+  "status" : "203002",
+  "tags" : "没有标签",
+  "teachmode" : "200002",
+  "validDays" : 222
 }
 
-<> 2024-01-27T153245.500.json
+<> 2024-02-15T145336.200.json
 
 ###
 
-POST http://localhost:63040/content/course
+GET http://localhost:63080/search/course/list?pageNo=1&keywords=spring
 Content-Type: application/json
 
-{
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-27T153243.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-27T152944.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-27T152619.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-27T151731.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 1,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "测试课程103",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-26T160020.200.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 0,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "测试课程103",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-26T160007.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-
-{
-  "charge": "201000",
-  "price": 0,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "测试课程103",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": ""
-}
-
-<> 2024-01-26T155820.500.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-
-<> 2024-01-26T134853.200.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-
-<> 2024-01-26T134803.500.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-
-<> 2024-01-26T134728.500.json
-
-###
-
-GET http://localhost:63110/system/dictionary/all
-
-<> 2024-01-25T215106.500.json
-
-###
-
-GET http://localhost:63110/system/dictionary/all
-
-<> 2024-01-25T214831.500.json
-
-###
-
-GET http://localhost:63110/system/dictionary/all
-
-<> 2024-01-25T214556.500.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": "203001"
-}
-
-<> 2024-01-25T212013.200.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": "203001"
-}
-
-<> 2024-01-25T211731.200.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": "203001"
-}
-
-<> 2024-01-25T211232.500.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": "203001"
-}
-
-<> 2024-01-25T211028.500.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-"auditStatus":"202002",
-"courseName":"1"
-}
-
-<> 2024-01-25T210900.500.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-content-type: application/json
-
-{
-"auditStatus":"202002",
-"courseName":"1"
-}
-
-<> 2024-01-25T210733.200.json
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-
-{
-"auditStatus":"202002",
-"courseName":"1"
-}
-
-<> 2024-01-25T210706.415.json
+<> 2024-02-15T145037.200.json
 
 ###
 

@@ -38,3 +38,7 @@ GET http://localhost:63010/content/teachplan/1/tree-nodes
 
 ###
 GET http://localhost:63010/system/dictionary/all
+
+### 查询课程信息
+GET http://localhost:63040/content/course/2
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MDgwNjcxODMsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjliZGNiZmRjLTdkNWEtNDgyNS1iMjVhLTVkNjFlMDRhZWU4ZSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.OVbTGrKMg7dXWyedbECru0phKLUGJTp9Q67Kh6KKl5Y

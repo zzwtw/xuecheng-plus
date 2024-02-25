@@ -1,0 +1,5 @@
+### 申请验证码
+POST http://localhost:63075/checkcode/pic
+
+### 校验验证码
+POST http://localhost:63075/checkcode/verify?key=checkcode:81438a43acf747af8fe6dab28cd37333&code=14PY

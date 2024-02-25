@@ -1,0 +1,2 @@
+2024-02-18 16:21:55,997 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev402][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect
+2024-02-18 16:21:56,008 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-127.0.0.1_8848-dev402][ServerHttpAgent.java:166] - [NACOS ConnectException httpPost] currentServerAddr: http://127.0.0.1:8848, err : Connection refused: connect

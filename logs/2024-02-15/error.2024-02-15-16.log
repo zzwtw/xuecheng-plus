@@ -1,0 +1,651 @@
+2024-02-15 16:00:00,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:06,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:09,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:15,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:18,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:21,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:30,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:36,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:42,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:45,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:48,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:51,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:00:57,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:00,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:06,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:09,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:12,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:15,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:18,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:21,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:24,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:27,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:30,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:33,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:36,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:39,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:41,813 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.xuecheng.auth.config.AuthorizationServer required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-02-15 16:01:42,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:45,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:48,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:51,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:01:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:00,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:03,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:06,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:09,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:12,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:15,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:18,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:21,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:27,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:30,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:33,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:42,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:45,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:48,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:51,010 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:02:57,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:00,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:06,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:09,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:12,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:15,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:18,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:21,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:24,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:30,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:30,359 ERROR [main][Injector.java:214] - null
+java.security.PrivilegedActionException: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String,[B,int,int,java.lang.ClassLoader,java.security.ProtectionDomain)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:573)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.<clinit>(Injector.java:197)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector.prepare(AccessorInjector.java:81)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory.get(OptimizedAccessorFactory.java:125)
+	at com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterSetterReflection.optimize(Accessor.java:402)
+	at com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty.<init>(SingleElementLeafProperty.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.sun.xml.bind.v2.runtime.property.PropertyFactory.create(PropertyFactory.java:128)
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.<init>(ClassBeanInfoImpl.java:181)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getOrCreate(JAXBContextImpl.java:514)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:331)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at org.springframework.security.oauth2.http.converter.jaxb.AbstractJaxbMessageConverter.<init>(AbstractJaxbMessageConverter.java:59)
+	at org.springframework.security.oauth2.http.converter.jaxb.JaxbOAuth2ExceptionMessageConverter.<init>(JaxbOAuth2ExceptionMessageConverter.java:21)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.geDefaultMessageConverters(DefaultOAuth2ExceptionRenderer.java:117)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.<init>(DefaultOAuth2ExceptionRenderer.java:53)
+	at org.springframework.security.oauth2.provider.error.AbstractOAuth2SecurityExceptionHandler.<init>(AbstractOAuth2SecurityExceptionHandler.java:42)
+	at org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler.<init>(OAuth2AccessDeniedHandler.java:32)
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer.<init>(AuthorizationServerSecurityConfigurer.java:60)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:231)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:322)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:94)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration$$EnhancerBySpringCGLIB$$5e28e3a7.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:370)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:324)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:311)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.AuthApplication.main(AuthApplication.java:22)
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String,[B,int,int,java.lang.ClassLoader,java.security.ProtectionDomain)
+	at java.base/java.lang.Class.getMethod(Class.java:2227)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector$3.run(Injector.java:201)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector$3.run(Injector.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	... 70 more
+2024-02-15 16:03:30,384 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:311)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.AuthApplication.main(AuthApplication.java:22)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	... 22 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.inject(Injector.java:311)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.inject(Injector.java:97)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector.prepare(AccessorInjector.java:87)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory.get(OptimizedAccessorFactory.java:125)
+	at com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterSetterReflection.optimize(Accessor.java:402)
+	at com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty.<init>(SingleElementLeafProperty.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.sun.xml.bind.v2.runtime.property.PropertyFactory.create(PropertyFactory.java:128)
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.<init>(ClassBeanInfoImpl.java:181)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getOrCreate(JAXBContextImpl.java:514)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:331)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at org.springframework.security.oauth2.http.converter.jaxb.AbstractJaxbMessageConverter.<init>(AbstractJaxbMessageConverter.java:59)
+	at org.springframework.security.oauth2.http.converter.jaxb.JaxbOAuth2ExceptionMessageConverter.<init>(JaxbOAuth2ExceptionMessageConverter.java:21)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.geDefaultMessageConverters(DefaultOAuth2ExceptionRenderer.java:117)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.<init>(DefaultOAuth2ExceptionRenderer.java:53)
+	at org.springframework.security.oauth2.provider.error.AbstractOAuth2SecurityExceptionHandler.<init>(AbstractOAuth2SecurityExceptionHandler.java:42)
+	at org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler.<init>(OAuth2AccessDeniedHandler.java:32)
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer.<init>(AuthorizationServerSecurityConfigurer.java:60)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:231)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:322)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:94)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration$$EnhancerBySpringCGLIB$$5e28e3a7.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:370)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:324)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 more
+2024-02-15 16:03:33,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:42,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:45,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:48,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:51,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:03:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:00,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:03,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:06,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:09,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:12,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:15,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:18,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:21,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:30,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:36,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:39,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:42,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:45,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:48,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:51,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:54,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:04:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:00,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:03,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:06,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:09,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:12,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:15,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:18,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:21,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:24,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:30,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:33,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:39,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:48,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:51,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:54,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:05:57,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:00,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:03,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:06,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:09,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:15,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:18,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:21,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:24,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:30,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:33,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:39,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:42,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:45,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:48,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:51,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:54,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:06:57,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:00,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:06,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:09,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:15,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:21,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:24,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:27,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:30,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:33,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:35,373 ERROR [main][Injector.java:214] - null
+java.security.PrivilegedActionException: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String,[B,int,int,java.lang.ClassLoader,java.security.ProtectionDomain)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:573)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.<clinit>(Injector.java:197)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector.prepare(AccessorInjector.java:81)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory.get(OptimizedAccessorFactory.java:125)
+	at com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterSetterReflection.optimize(Accessor.java:402)
+	at com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty.<init>(SingleElementLeafProperty.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.sun.xml.bind.v2.runtime.property.PropertyFactory.create(PropertyFactory.java:128)
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.<init>(ClassBeanInfoImpl.java:181)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getOrCreate(JAXBContextImpl.java:514)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:331)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at org.springframework.security.oauth2.http.converter.jaxb.AbstractJaxbMessageConverter.<init>(AbstractJaxbMessageConverter.java:59)
+	at org.springframework.security.oauth2.http.converter.jaxb.JaxbOAuth2ExceptionMessageConverter.<init>(JaxbOAuth2ExceptionMessageConverter.java:21)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.geDefaultMessageConverters(DefaultOAuth2ExceptionRenderer.java:117)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.<init>(DefaultOAuth2ExceptionRenderer.java:53)
+	at org.springframework.security.oauth2.provider.error.AbstractOAuth2SecurityExceptionHandler.<init>(AbstractOAuth2SecurityExceptionHandler.java:42)
+	at org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler.<init>(OAuth2AccessDeniedHandler.java:32)
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer.<init>(AuthorizationServerSecurityConfigurer.java:60)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:231)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:322)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:94)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration$$EnhancerBySpringCGLIB$$5e28e3a7.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:370)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:324)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:311)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.AuthApplication.main(AuthApplication.java:22)
+Caused by: java.lang.NoSuchMethodException: sun.misc.Unsafe.defineClass(java.lang.String,[B,int,int,java.lang.ClassLoader,java.security.ProtectionDomain)
+	at java.base/java.lang.Class.getMethod(Class.java:2227)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector$3.run(Injector.java:201)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector$3.run(Injector.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+	... 70 more
+2024-02-15 16:07:35,397 ERROR [main][SpringApplication.java:837] - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:657)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:485)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1176)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:556)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:311)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:405)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.xuecheng.AuthApplication.main(AuthApplication.java:22)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:652)
+	... 22 more
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.reflect.Method.invoke(Object, Object[])" because "com.sun.xml.bind.v2.runtime.reflect.opt.Injector.defineClass" is null
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.inject(Injector.java:311)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.Injector.inject(Injector.java:97)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.AccessorInjector.prepare(AccessorInjector.java:87)
+	at com.sun.xml.bind.v2.runtime.reflect.opt.OptimizedAccessorFactory.get(OptimizedAccessorFactory.java:125)
+	at com.sun.xml.bind.v2.runtime.reflect.Accessor$GetterSetterReflection.optimize(Accessor.java:402)
+	at com.sun.xml.bind.v2.runtime.property.SingleElementLeafProperty.<init>(SingleElementLeafProperty.java:92)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.sun.xml.bind.v2.runtime.property.PropertyFactory.create(PropertyFactory.java:128)
+	at com.sun.xml.bind.v2.runtime.ClassBeanInfoImpl.<init>(ClassBeanInfoImpl.java:181)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.getOrCreate(JAXBContextImpl.java:514)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:331)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl.<init>(JAXBContextImpl.java:139)
+	at com.sun.xml.bind.v2.runtime.JAXBContextImpl$JAXBContextBuilder.build(JAXBContextImpl.java:1156)
+	at com.sun.xml.bind.v2.ContextFactory.createContext(ContextFactory.java:165)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:297)
+	at javax.xml.bind.ContextFinder.newInstance(ContextFinder.java:286)
+	at javax.xml.bind.ContextFinder.find(ContextFinder.java:409)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:721)
+	at javax.xml.bind.JAXBContext.newInstance(JAXBContext.java:662)
+	at org.springframework.security.oauth2.http.converter.jaxb.AbstractJaxbMessageConverter.<init>(AbstractJaxbMessageConverter.java:59)
+	at org.springframework.security.oauth2.http.converter.jaxb.JaxbOAuth2ExceptionMessageConverter.<init>(JaxbOAuth2ExceptionMessageConverter.java:21)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.geDefaultMessageConverters(DefaultOAuth2ExceptionRenderer.java:117)
+	at org.springframework.security.oauth2.provider.error.DefaultOAuth2ExceptionRenderer.<init>(DefaultOAuth2ExceptionRenderer.java:53)
+	at org.springframework.security.oauth2.provider.error.AbstractOAuth2SecurityExceptionHandler.<init>(AbstractOAuth2SecurityExceptionHandler.java:42)
+	at org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler.<init>(OAuth2AccessDeniedHandler.java:32)
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerSecurityConfigurer.<init>(AuthorizationServerSecurityConfigurer.java:60)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration.configure(AuthorizationServerSecurityConfiguration.java:74)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:231)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:322)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:94)
+	at org.springframework.security.oauth2.config.annotation.web.configuration.AuthorizationServerSecurityConfiguration$$EnhancerBySpringCGLIB$$5e28e3a7.init(<generated>)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:370)
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:324)
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:41)
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:104)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 23 more
+2024-02-15 16:07:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:42,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:45,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:48,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:51,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:07:57,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:00,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:03,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:06,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:09,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:12,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:15,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:21,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:30,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:36,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:48,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:51,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:08:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:00,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:06,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:09,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:12,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:15,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:21,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:24,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:30,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:39,013 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:45,029 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:48,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:51,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:09:57,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:00,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:03,239 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:06,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:09,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:15,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:18,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:21,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:24,010 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:27,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:30,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:36,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:48,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:51,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:10:57,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:00,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:06,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:09,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:15,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:21,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:27,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:30,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:33,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:36,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:39,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:48,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:51,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:11:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:00,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:03,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:06,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:09,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:12,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:15,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:21,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:24,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:27,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:30,012 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:36,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:42,023 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:45,025 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:48,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:51,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:12:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:00,031 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:06,003 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:09,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:12,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:15,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:21,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:27,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:30,055 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:33,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:36,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:39,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:42,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:48,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:51,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:54,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:13:57,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:00,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:03,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:06,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:09,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:12,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:15,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:18,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:21,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:24,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:27,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:30,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:33,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:36,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:39,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:42,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:45,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:48,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:51,010 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:54,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:14:57,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:00,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:03,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:06,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:09,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:12,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:15,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:18,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:21,009 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:24,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:27,008 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:30,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:33,007 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:36,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:39,006 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:42,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:45,004 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
+2024-02-15 16:15:48,005 ERROR [xxl-job, JobThread-2-1707979986157][SampleXxlJob.java:66] - shardIndex0,shardTotal1
